@@ -9,10 +9,10 @@ if (number1 < number2) {
 
 console.log(' ');
 
-var age = 10;
+var age = prompt('Hello! How old are you?');
 
 if (age < 18) {
-  console.log("Sorry, this article is only available for people over 18 years of age.");
+  alert("This article is only available for people over 18 years of age.");
 } else {
-  console.log("Thank you! You can read this article.");
+  alert("Thank you! You can read this article.");
 }
