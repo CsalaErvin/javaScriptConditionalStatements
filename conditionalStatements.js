@@ -3,7 +3,7 @@ var number2 = prompt('Enter another number:');
 
 if (number1 < number2) {
   alert(number1 + ' less than ' + number2);
-} else if (number1 = number2) {
+} else if (number1 == number2) {
 	alert(number1 + ' is equal to ' + number2);				 
 } else {
   alert(number1 + ' more than ' + number2);
