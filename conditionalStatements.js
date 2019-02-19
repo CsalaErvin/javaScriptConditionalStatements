@@ -9,8 +9,6 @@ if (number1 < number2) {
   alert(number1 + ' more than ' + number2);
 }
 
-console.log(' ');
-
 var age = prompt('Hello! How old are you?');
 
 if (age < 18) {
@@ -19,4 +17,20 @@ if (age < 18) {
 	alert("Exactly 18 years old? Congratulations, welcome to adults! Have fun with the article! ");
 } else {
   alert("Thank you! You can read this article.");
+}
+
+for (var i = 1; i <= 20; i++) {
+  console.log(i + ' is a number.')
+}
+
+console.log(' ');
+
+for (var i = 1; i <= 20; i++) {
+  if (i % 2 != 0) {
+    console.log(i + ' is an odd number.');
+  } else if (i == 10) {
+	  console.log(i + '  is the most beautiful even number.');
+  } else {
+    console.log(i + ' is a even number.');
+  }
 }
