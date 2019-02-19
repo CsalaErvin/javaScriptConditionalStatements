@@ -34,3 +34,15 @@ for (var i = 1; i <= 20; i++) {
     console.log(i + ' is a even number.');
   }
 }
+
+console.log(' ');
+
+for (var i = 1; i <= 100; i++) {
+  if (i % 3 == 0) {
+    console.log(i + ' cat');
+  } else if (i % 5 == 0) {
+	  console.log(i + ' dog');
+  } else {
+    console.log(i);
+  }
+}
